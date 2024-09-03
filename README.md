@@ -3,7 +3,7 @@
 This is a simple Node.js application that fetches the latest stories from https://time.com/ and returns them as a JSON response through a web server. The application listens on port 8000 and responds to requests made to the /getTimeStories endpoint.
 
 # Features
-1-Fetches the latest stories from TIME.com.
+1-Fetches the latest stories from https://time.com/.
 
 2-Parses the HTML to extract story titles and links.
 
@@ -13,11 +13,11 @@ This is a simple Node.js application that fetches the latest stories from https:
 Node.js installed on the system.
 
 # Usage
-1- Start the server by running the following command in your terminal: node server.js
+1- Start the server by running the following command in  terminal: node server.js
 
 2- Open your browser and go to: http://localhost:8000/getTimeStories
 
-3- You should receive a JSON response containing the latest stories from https://time.com/
+3- Received a JSON response containing the latest stories from https://time.com/
 
 # Project Structure
 server.js: The main file containing the server setup, HTML fetching, and parsing logic.
